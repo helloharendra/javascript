@@ -1,0 +1,89 @@
+.but1{
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: rgb(255, 135, 23);
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but2{
+    color: hsl(0, 5%, 4%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: rgb(239, 239, 245);
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but3{
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: #05c75c;
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but4{
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: #c4c705;
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but5{
+    
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: #0dbbf0;
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but6{
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: #f31dd6;
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but7{
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: #ee546d;
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
+.but8{
+    color: hsl(0, 0%, 99%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px;
+    background-color: #f8dc40;
+    text-align: center;
+    text-decoration: aliceblue;
+    padding: 1px;
+    height: 40px;
+    width: 140px;
+}
