@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="openwindow1" id="" onclick="openWindow()">
+    <input type="button" value="openwindow2" id="" onclick="openWindow1()">
+    <input type="button" value="openwindow3" id="" onclick="openWindow1()">
+    <input type="button" value="closewindow" id="" onclick="closeWindow()">
+    <input type="button" value="path" id="" onclick="myFunction()">
+
+    <script>
+        function openWindow(){
+           mywindow= window.open("https://tanyafinance.com/harendraprajapati/","","width=300 height=500")
+        }
+        function openWindow1(){
+           mywindow= window.open("https://tanyafinance.com/harendraprajapati/","","width=300 height=500")
+        }
+        function openWindow2(){
+           mywindow= window.open("https://tanyafinance.com/harendraprajapati/","","width=300 height=500")
+        }
+        function closeWindow(){
+            mywindow.close();
+        }
+        function myFunction(){
+            document.write(file.location.href);
+        }
+    </script>
+
+</body>
+</html>
