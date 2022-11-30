@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="Button" value="setCookie" onclick="setCookie()">
+    <input type="Button" value="getCookie" onclick="getCookie()">
+    <input type="Button" value="deleteCookie" onclick="deleteCookie()">
+
+    
+
+
+    <script>
+        function setCookie(){
+            // document.cookie="uname=harendra; expires=Sun, 20 Aug 2000 12:00:00 UTC";
+            // document.cookie="uname=harendra; max-age=0";
+            document.cookie="uname=harendra";
+            cookie1=document.cookie;
+
+            }
+        function getCookie(){
+            if(document.cookie!=0){
+                // 
+                var arry=document.cookie.split("="); 
+                alert("Name ="+arry[0]+"Value ="+arry[1]);
+            }else{
+                alert('no cookie set');
+            }
+        }
+        function deleteCookie(){
+            document.cookie=cookie1+"max-age=0"
+            cookie1=document.cookie;
+            alert("cookie is deleted");
+        }
+    </script>
+</body>
+</html>
