@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myFunction(){
+            alert('hello harendra');
+
+        }
+        function myFunction1(){
+          var v=  confirm('redirected to official site');
+          if (v==true){
+            open("https://tanyafinance.com/harendraprajapati/")
+          }else{
+            alert(' you mean not ok');
+          }
+        }
+
+        function myFunction2(){
+            var v=prompt('whao are you');
+            alert('I am '+v);
+        }
+
+        function myFunction3(){
+            open("https://tanyafinance.com/harendraprajapati/")
+        }
+        function myFunction4(){
+            document.write('you will be redirected after 2 second');
+            setTimeout(
+                function myFunction(){
+                   
+                    open("https://tanyafinance.com/harendraprajapati/")
+                },2000
+            )
+        }
+    </script>
+    <input type="button" onclick="myFunction4()" value="Click me">
+    
+</body>
+</html>
